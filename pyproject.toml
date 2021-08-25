@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ahadith"
+version = "0.1.0"
+description = "A module which helps you to retrieve (sahih) ahadith"
+authors = ["4thel00z <4thel00z@gmail.com>"]
+license = "GPL-3"
+readme = "README.md"
+homepage = "https://github.com/4thel00z/ahadith"
+packages = [
+    { include = "ahadith" },
+    { include = "libahadith" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
