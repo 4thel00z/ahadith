@@ -7,8 +7,7 @@ license = "GPL-3"
 readme = "README.md"
 homepage = "https://github.com/4thel00z/ahadith"
 packages = [
-    { include = "ahadith" },
-    { include = "libahadith" }
+    { include = "ahadith" }
 ]
 
 [tool.poetry.dependencies]
